@@ -18,19 +18,15 @@ export const TransactionsTable = styled.table`
     background: ${props => props.theme["gray-700"]};
 
     &:first-child {
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
     }
 
     &:last-child {
-      border-top-right-radius: 6px;
-      border-bottom-right-radius: 6px;
     }
   }
 `
 
 interface PriceHighlightProps {
-  variant?: 'income' | 'outcome';
+  variant: 'income' | 'outcome';
 }
 
 export const PriceHighLight = styled.span<PriceHighlightProps>`
