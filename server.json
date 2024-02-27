@@ -4,7 +4,7 @@
       "id": 1,
       "description": "Desenvolvimento de site",
       "type": "income",
-      "category": "venda", 
+      "category": "venda",
       "price": 14000,
       "createdAt": "2024-02-26T19:40:01.218Z"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "description": "Hamburguer",
       "type": "outcome",
-      "category": "Alimentação", 
+      "category": "Alimentação",
       "price": 60,
       "createdAt": "2024-02-26T19:30:01.218Z"
     },
@@ -20,9 +20,17 @@
       "id": 3,
       "description": "Ignite Rocketseat",
       "type": "outcome",
-      "category": "Educação", 
+      "category": "Educação",
       "price": 1980,
       "createdAt": "2024-02-26T19:15:01.218Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-02-27T14:57:40.976Z",
+      "id": 4
     }
   ]
 }
