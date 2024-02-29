@@ -8,13 +8,13 @@ Dt-Money é uma aplicação front-end desenvolvida durante o módulo 3 da trilha
 A aplicação consiste em um controle de finanças que permite aos usuários registrar suas transações financeiras, categorizando-as como entradas ou saídas. A aplicação fornece uma interface amigável para que os usuários possam cadastrar, visualizar e buscar suas transações de forma eficiente.
 
 # Funcionalidades
-[x]Cadastro de Transações: Os usuários podem adicionar novas transações, especificando se são entradas ou saídas, além de fornecer detalhes relevantes, como descrição e valor.
+Cadastro de Transações: Os usuários podem adicionar novas transações, especificando se são entradas ou saídas, além de fornecer detalhes relevantes, como descrição e valor.
 
-[x]Visualização de Totais: A aplicação exibe o total de entradas, o total de saídas e o saldo geral, proporcionando uma visão clara da situação financeira.
+Visualização de Totais: A aplicação exibe o total de entradas, o total de saídas e o saldo geral, proporcionando uma visão clara da situação financeira.
 
-[x]Lista de Transações: Todas as transações cadastradas ficam disponíveis em uma lista na tela, permitindo que o usuário visualize facilmente o histórico financeiro.
+Lista de Transações: Todas as transações cadastradas ficam disponíveis em uma lista na tela, permitindo que o usuário visualize facilmente o histórico financeiro.
 
-[x]Busca de Transações: Um recurso de busca está integrado à aplicação, permitindo que o usuário encontre rapidamente transações específicas com base em critérios como nome, preço ou descrição.
+Busca de Transações: Um recurso de busca está integrado à aplicação, permitindo que o usuário encontre rapidamente transações específicas com base em critérios como nome, preço ou descrição.
 
 ## Layout web
 ![image](https://github.com/MilenaRizzi/dt-money/assets/116590085/f5aaea59-bb24-4bef-99ba-f44a9220b23a)
