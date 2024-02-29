@@ -1,30 +1,60 @@
-# React + TypeScript + Vite
+# Dt-Money
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/MilenaRizzi/dt-money/blob/main/LICENSE) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+Dt-Money é uma aplicação front-end desenvolvida durante o módulo 3 da trilha ReactJS do curso **Rocketseat** 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação consiste em um controle de finanças que permite aos usuários registrar suas transações financeiras, categorizando-as como entradas ou saídas. A aplicação fornece uma interface amigável para que os usuários possam cadastrar, visualizar e buscar suas transações de forma eficiente.
 
-## Expanding the ESLint configuration
+# Funcionalidades
+[x]Cadastro de Transações: Os usuários podem adicionar novas transações, especificando se são entradas ou saídas, além de fornecer detalhes relevantes, como descrição e valor.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[x]Visualização de Totais: A aplicação exibe o total de entradas, o total de saídas e o saldo geral, proporcionando uma visão clara da situação financeira.
 
-- Configure the top-level `parserOptions` property like this:
+[x]Lista de Transações: Todas as transações cadastradas ficam disponíveis em uma lista na tela, permitindo que o usuário visualize facilmente o histórico financeiro.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+[x]Busca de Transações: Um recurso de busca está integrado à aplicação, permitindo que o usuário encontre rapidamente transações específicas com base em critérios como nome, preço ou descrição.
+
+## Layout web
+![image](https://github.com/MilenaRizzi/dt-money/assets/116590085/f5aaea59-bb24-4bef-99ba-f44a9220b23a)
+
+
+![image](https://github.com/MilenaRizzi/dt-money/assets/116590085/5c42f3d3-c6c9-4bfa-93b3-816e4f139deb)
+
+# Tecnologias Utilizadas
+## Front end
+- JS / TypeScript
+- ReactJS
+- Styled Components
+
+**Validação:**
+- Zod
+- Resolver
+
+**Backend Simulado:**
+- JSON Server
+
+# Como executar o projeto
+Pré-requisitos: npm 
+
+```bash
+# clonar repositório
+git clone: https://github.com/MilenaRizzi/dt-money
+
+# entrar na pasta dt-money
+cd dt-money
+
+# instalar dependências
+npm instal
+
+# Inicie o JSON Server para simular a API.
+npm run dev:server
+
+# executar o projeto
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Autora
+Milena Clara Ribeiro Rizzi
+
